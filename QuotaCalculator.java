@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class QuotaGenerator {
+public class QuotaCalculator {
     public static void main(String[] args) {
         int quota = 10;
 
