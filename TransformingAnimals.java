@@ -7,15 +7,33 @@
 public class TransformingAnimals {
     public static void main(String[] args) {
         Dog je = new Dog();
-        je.makeSound();
-        je.fetch();
+        // je.makeSound();
+        // je.fetch();
+        feed(je);
 
         Animals jo = new Dog();
-        jo.makeSound();
+        // jo.makeSound();
+        feed(jo);
         
         jo = new Cat();
-        jo.makeSound();
-        ((Cat)jo).scratch();
+        // jo.makeSound();
+        // ((Cat)jo).scratch();
+        feed(jo);
+    }
+
+    /*
+
+        Create a method that feeds any animal the type of food  it eats
+    
+    */
+
+    public static void feed(Animals animal) {
+
+        if(animal instanceof Dog) {
+            System.out.println("here's your dog food");
+        }else if (animal instanceof Cat) {
+            System.out.println("here's your cat food");
+        }
     }
 }
 
