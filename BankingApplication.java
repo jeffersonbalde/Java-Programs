@@ -1,6 +1,7 @@
 /*
-    Customer name, account number,email, balance, phone number
-    Deposit money, withdraw money
+
+    a banking application program that allows the user to deposit and withdraw money
+
  */
 
 import java.util.Scanner;
