@@ -21,5 +21,7 @@ public class AddAllDigits {
         int fourthDigit = remainingNumber % 10;
         int sum = thirdDigit + SecondDigit + firstDigit + fourthDigit;
         System.out.println("The sum of all digits in " + num + " is " + sum);
+
+        scanner.close();
     }
 }
