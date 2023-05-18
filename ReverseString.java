@@ -18,5 +18,7 @@ public class ReverseString {
         StringBuilder stringBuilder = new StringBuilder(input);
 
         System.out.println(stringBuilder.reverse());
+
+        scanner.close();
     }
 }
