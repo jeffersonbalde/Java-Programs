@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class BankingApplication {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        Account jeffAccount = new Account("09187305985", 0.0, "jeffersonbalde", "jef@gmail.com", "09187305985");
+        Account jeffAccount = new Account("09187305985", 0.0, "jeffersonbalde", "jef@gmail.com");
 
         int depositAmount = amountToDeposit(); 
         jeffAccount.DepositMoney(depositAmount);
@@ -46,14 +46,12 @@ class Account {
     private double Balance;
     private String Name;
     private String Email;
-    private String PhoneNumber;
 
-    public Account(String Number, double Balance, String Name, String Email, String PhoneNumber) {
+    public Account(String Number, double Balance, String Name, String Email) {
         this.Number = Number;
         this.Balance = Balance;
         this.Name = Name;
         this.Email = Email;
-        this.PhoneNumber = PhoneNumber;
     }
 
     // Method
@@ -102,9 +100,5 @@ class Account {
 
     public String getEmail() {
         return Email;
-    }
-
-    public void setPhoneNumber(String phonenumber) {
-        this.PhoneNumber = phonenumber;
     }
 }
