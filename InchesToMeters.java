@@ -17,5 +17,7 @@ public class InchesToMeters {
 
         double meters = inch * 0.0254;
         System.out.println(inch + " inch is " + meters + " meters");
+
+        scanner.close();
     }
 }
