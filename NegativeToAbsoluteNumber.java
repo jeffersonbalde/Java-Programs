@@ -1,5 +1,6 @@
 /*
 
+    Log2Base2 Task:
     Find the absolute number of the negative number
 
  */
