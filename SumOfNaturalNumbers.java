@@ -18,6 +18,12 @@ public class SumOfNaturalNumbers {
         for(int i = 0; i <= N; i++){
             sum += i;
         }
+
+        // Method 2 without using for loop
+        // the formula is N * (N + 1) / 2
+        
+        // N = N * (N + 1) / 2;
+        // System.out.println(N);
         
         System.out.println(sum);
     }
