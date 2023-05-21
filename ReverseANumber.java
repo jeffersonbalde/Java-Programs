@@ -11,6 +11,7 @@ public class ReverseANumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
+        sc.close();
         
         //Write your code here
         int ans = 0;
