@@ -1,3 +1,11 @@
+/*
+
+    Log2Base2 Task:
+    Given an input number you need to check if it is an armstrong number or not
+
+ */
+
+
 import java.util.Scanner;
 
 public class ArmstrongNumber {
