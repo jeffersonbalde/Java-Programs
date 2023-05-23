@@ -1,3 +1,10 @@
+/*
+
+    Log2Base2 Task:
+    Given an input number n you need to print diagonals of a n x n box
+
+ */
+
 import java.util.Scanner;
 
 public class PrintDiagonalsOfANXNBox {
