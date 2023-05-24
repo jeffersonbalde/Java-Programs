@@ -1,7 +1,7 @@
 /*
 
     Log2Base2 Task:
-    Given an array you have to reverse it
+    Given an array n and you have to reverse it
 
  */
 import java.util.Scanner;
