@@ -20,5 +20,6 @@ public class ReverseString {
         System.out.println(stringBuilder.reverse());
 
         scanner.close();
+        
     }
 }
