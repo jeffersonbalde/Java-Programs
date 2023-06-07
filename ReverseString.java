@@ -9,17 +9,22 @@ import java.util.Scanner;
 
 public class ReverseString {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner (System.in);
 
         System.out.println();
-        System.out.print("ENTER STRING TO BE REVERSE: ");
+        System.out.println("ENTER STRING TO REVERSE: ");
         String input = scanner.next();
 
-        StringBuilder stringBuilder = new StringBuilder(input);
+        // Method 1 using Stringbuilder
+        // StringBuilder str = new StringBuilder(input);
+        // System.out.println(str.reverse());
 
-        System.out.println(stringBuilder.reverse());
+        // Method 2 using for loop
+        String reverseString = "";
+        for(int i = input.length() - 1; i >= 0; i--){
+            reverseString += input.charAt(i);
+        }
 
-        scanner.close();
-        
+        System.out.println(reverseString);
     }
 }
