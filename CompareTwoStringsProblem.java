@@ -1,6 +1,5 @@
 /*
 
-    Log2Base Task:
     You will be given two string and you have compare this two strings 
 
  */
@@ -16,8 +15,7 @@ public class CompareTwoStringsProblem {
         temp = sc.nextLine();
         char[] str2 = temp.toCharArray();
         sc.close();
-    
-        //Write your code here
+        
         int length1 = 0;
         int length2 = 0;
         int status = 0;
